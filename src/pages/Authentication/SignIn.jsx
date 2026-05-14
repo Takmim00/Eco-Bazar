@@ -67,7 +67,7 @@ export default function SignIn() {
             </label>
 
             <Link
-              to="/forgot-password"
+              to="/forgotPassword"
               className="text-gray-500 hover:text-green-600"
             >
               Forgot Password

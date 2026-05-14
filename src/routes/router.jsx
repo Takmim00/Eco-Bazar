@@ -25,6 +25,8 @@ import OrderHistory from "../pages/Dashboard/OrderHistoy";
 import NotFound from "../pages/NotFound/NotFound";
 import FAQ from "../pages/faq/FAQ";
 import PrivateRoute from "./private/PrivateRoute";
+import ForgotPassword from './../pages/Authentication/ForgetPassword';
+import ResetPasswordConfirm from "../pages/Authentication/ResetPasswordConfirm";
 
 export const router = createBrowserRouter([
   {
@@ -74,6 +76,14 @@ export const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register />,
+      },
+      {
+         path: "/forgotPassword",
+        element: <ForgotPassword/>,
+      },
+      {
+         path: "/reset-password-confirm/:uid/:token",
+        element: <ResetPasswordConfirm/>,
       },
       {
         path: "/about",
