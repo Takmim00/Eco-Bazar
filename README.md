@@ -6,6 +6,8 @@ This project was mainly focused on frontend development, responsive UI/UX implem
 
 Designed with performance, scalability, and clean user interaction in mind, GreenHarvest delivers a professional and responsive shopping experience across desktop, tablet, and mobile devices.
 
+---
+
 ## 🌐 Live Demo
 
 👉 [GreenHarvest Live Website](https://green-harvest-seven.vercel.app/)
