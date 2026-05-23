@@ -1,5 +1,11 @@
 # GreenHarvest - Full Stack Grocery E-Commerce Platform
 
+GreenHarvest is a modern full-stack grocery e-commerce web application built with React, Vite, Tailwind CSS, Redux Toolkit, and REST API integration. The platform provides a complete online grocery shopping experience including product browsing, shopping cart, wishlist, secure checkout, Stripe & SSLCommerz payment integration, authentication system, and admin management functionalities.
+
+This project was mainly focused on frontend development, responsive UI/UX implementation, state management, API integration, and creating a smooth user experience inspired by modern grocery marketplace platforms.
+
+Designed with performance, scalability, and clean user interaction in mind, GreenHarvest delivers a professional and responsive shopping experience across desktop, tablet, and mobile devices.
+
 ## 🌐 Live Demo
 
 👉 [GreenHarvest Live Website](https://green-harvest-seven.vercel.app/)
@@ -131,7 +137,7 @@ Bangladesh local payment gateway support.
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/greenharvest.git
+git clone https://github.com/Takmim00/Green-Harvest.git
 ```
 
 ---
@@ -146,27 +152,6 @@ npm run dev
 
 ---
 
-## 3️⃣ Backend Setup (Django)
-
-```bash
-cd backend
-
-python -m venv venv
-
-# Windows
-venv\Scripts\activate
-
-# Mac/Linux
-source venv/bin/activate
-
-pip install -r requirements.txt
-
-python manage.py migrate
-
-python manage.py runserver
-```
-
----
 
 # ⚙ Environment Variables
 
@@ -179,20 +164,7 @@ VITE_STRIPE_PUBLISHABLE_KEY=your_key
 
 ---
 
-## Backend `.env`
 
-```env
-SECRET_KEY=your_secret_key
-
-DEBUG=True
-
-STRIPE_SECRET_KEY=your_key
-
-SSLCOMMERZ_STORE_ID=your_store_id
-SSLCOMMERZ_STORE_PASSWORD=your_password
-```
-
----
 
 # 📂 Project Structure
 
@@ -206,13 +178,6 @@ greenharvest/
 │   ├── pages/
 │   ├── redux/
 │   └── routes/
-│
-├── backend/
-│   ├── api/
-│   ├── products/
-│   ├── orders/
-│   ├── users/
-│   └── payments/
 │
 └── README.md
 ```
@@ -262,19 +227,6 @@ Fully optimized for:
 * Push Notifications
 * PWA Support
 
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-```bash
-Fork the project
-Create your feature branch
-Commit your changes
-Push to the branch
-Open a Pull Request
-```
 
 ---
 
@@ -298,5 +250,5 @@ If you like this project, give it a ⭐ on GitHub.
 
 # 🔗 Links
 
-* 🌍 Live Site: [GreenHarvest Website](https://green-harvest-seven.vercel.app/?utm_source=chatgpt.com)
-* 📧 Contact: [proy@gmail.com](mailto:proy@gmail.com)
+* 🌍 Live Site: [GreenHarvest Website](https://green-harvest-seven.vercel.app/)
+* 📧 Contact: [takmimm@gmail.com](takmimm@gmail.com)
