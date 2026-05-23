@@ -1,16 +1,304 @@
-# React + Vite
+# GreenHarvest - Full Stack Grocery E-Commerce Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![GreenHarvest Preview](./preview.png)
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [GreenHarvest Live Website](https://green-harvest-seven.vercel.app/?utm_source=chatgpt.com)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# 🛒 GreenHarvest
 
-## Expanding the ESLint configuration
+A modern full-stack grocery e-commerce web application built with **React, Vite, Tailwind CSS, Redux Toolkit, and Django Backend**.
+This platform includes everything needed for a complete online grocery shopping experience including:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* Product browsing
+* Shopping cart
+* Wishlist
+* Checkout system
+* Stripe Payment Gateway
+* SSLCommerz Payment Integration
+* User Authentication
+* Admin Dashboard
+* Product Management
+* Order Management
+* Responsive UI
+* Smooth Animations
+* Real-time Cart Updates
+
+Designed with a clean and modern UI inspired by premium grocery marketplace platforms.
+
+---
+
+# ✨ Features
+
+## 👤 User Features
+
+* User Registration & Login
+* JWT Authentication
+* Browse Products
+* Product Categories
+* Product Details Page
+* Search & Filter Products
+* Add to Cart
+* Update Cart Quantity
+* Wishlist System
+* Checkout Process
+* Order Tracking
+* Payment Integration
+* Responsive Design
+* Toast Notifications
+* Smooth Animations
+
+---
+
+## 🛠 Admin Features
+
+* Admin Dashboard
+* Add/Edit/Delete Products
+* Manage Categories
+* Manage Orders
+* Manage Users
+* Sales Monitoring
+* Inventory Control
+
+---
+
+## 💳 Payment Gateways
+
+### Stripe Integration
+
+Secure international payment gateway integration.
+
+### SSLCommerz Integration
+
+Bangladesh local payment gateway support.
+
+---
+
+# 🧑‍💻 Tech Stack
+
+## Frontend
+
+* React 19
+* Vite
+* Tailwind CSS
+* Redux Toolkit
+* React Router DOM
+* Axios
+* GSAP
+* Swiper JS
+* React Toastify
+* Lucide React
+* React Icons
+
+## Backend
+
+* Django
+* Django REST Framework (DRF)
+* JWT Authentication
+* PostgreSQL / SQLite
+* Stripe API
+* SSLCommerz API
+
+---
+
+# 📦 Frontend Dependencies
+
+```json
+{
+  "@reduxjs/toolkit": "^2.11.2",
+  "@tailwindcss/vite": "^4.1.18",
+  "axios": "^1.13.4",
+  "gsap": "^3.14.2",
+  "lucide-react": "^0.562.0",
+  "mixitup": "^3.3.2",
+  "react": "^19.2.0",
+  "react-dom": "^19.2.0",
+  "react-icons": "^5.5.0",
+  "react-redux": "^9.2.0",
+  "react-router": "^7.12.0",
+  "react-router-dom": "^7.13.0",
+  "react-toastify": "^11.0.5",
+  "swiper": "^12.0.3",
+  "tailwindcss": "^4.1.18"
+}
+```
+
+---
+
+# 🚀 Installation Guide
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/greenharvest.git
+```
+
+---
+
+## 2️⃣ Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+---
+
+## 3️⃣ Backend Setup (Django)
+
+```bash
+cd backend
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Mac/Linux
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+python manage.py migrate
+
+python manage.py runserver
+```
+
+---
+
+# ⚙ Environment Variables
+
+## Frontend `.env`
+
+```env
+VITE_API_BASE_URL=http://127.0.0.1:8000/api
+VITE_STRIPE_PUBLISHABLE_KEY=your_key
+```
+
+---
+
+## Backend `.env`
+
+```env
+SECRET_KEY=your_secret_key
+
+DEBUG=True
+
+STRIPE_SECRET_KEY=your_key
+
+SSLCOMMERZ_STORE_ID=your_store_id
+SSLCOMMERZ_STORE_PASSWORD=your_password
+```
+
+---
+
+# 📂 Project Structure
+
+```bash
+greenharvest/
+│
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── components/
+│   ├── pages/
+│   ├── redux/
+│   └── routes/
+│
+├── backend/
+│   ├── api/
+│   ├── products/
+│   ├── orders/
+│   ├── users/
+│   └── payments/
+│
+└── README.md
+```
+
+---
+
+# 🎨 UI Highlights
+
+* Modern Grocery Marketplace Design
+* Fully Responsive
+* Interactive Product Cards
+* Smooth GSAP Animations
+* Professional Layout
+* Clean Typography
+* Fast Loading Experience
+
+---
+
+# 🔒 Authentication System
+
+* JWT Based Authentication
+* Protected Routes
+* Persistent Login
+* Role-based Access Control
+
+---
+
+# 📱 Responsive Design
+
+Fully optimized for:
+
+* Mobile Devices
+* Tablets
+* Laptops
+* Desktop Screens
+
+---
+
+# 📈 Future Improvements
+
+* Multi Vendor Support
+* Real-time Chat
+* AI Product Recommendation
+* Dark Mode
+* Coupon System
+* Delivery Tracking
+* Push Notifications
+* PWA Support
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+```bash
+Fork the project
+Create your feature branch
+Commit your changes
+Push to the branch
+Open a Pull Request
+```
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Developer
+
+Developed by **Maghferat Takmim**
+
+---
+
+# ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub.
+
+---
+
+# 🔗 Links
+
+* 🌍 Live Site: [GreenHarvest Website](https://green-harvest-seven.vercel.app/?utm_source=chatgpt.com)
+* 📧 Contact: [proy@gmail.com](mailto:proy@gmail.com)
