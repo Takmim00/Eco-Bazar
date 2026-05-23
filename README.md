@@ -2,7 +2,7 @@
 
 ## 🌐 Live Demo
 
-👉 [GreenHarvest Live Website](https://green-harvest-seven.vercel.app/?utm_source=chatgpt.com)
+👉 [GreenHarvest Live Website](https://green-harvest-seven.vercel.app/)
 
 ---
 
