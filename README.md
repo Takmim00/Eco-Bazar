@@ -240,7 +240,7 @@ This project is licensed under the MIT License.
 
 # 👨‍💻 Developer
 
-Developed by **Maghferat Takmim**
+Developed by **A S MMaghferat Takmim**
 
 ---
 
