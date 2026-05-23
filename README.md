@@ -1,7 +1,5 @@
 # GreenHarvest - Full Stack Grocery E-Commerce Platform
 
-![GreenHarvest Preview](./preview.png)
-
 ## 🌐 Live Demo
 
 👉 [GreenHarvest Live Website](https://green-harvest-seven.vercel.app/?utm_source=chatgpt.com)
